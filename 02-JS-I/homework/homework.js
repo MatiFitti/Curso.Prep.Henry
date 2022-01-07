@@ -61,24 +61,28 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if ( x == y) {
-     return true
+    return true
   } else {
-     return false
-   }
+    return false
+  }
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienegin la misma longitud
-  // De lo contrario, devuelve "false"gi
-  // Tu código:gi
-  return str1.length == str2.lengthgi
-}gi
-gi
-function menosQueNoventa(num) {gi
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  if (str1.length == str2.length){
+    return true
+  }else {
+    return false
+  }
+}
+
+function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la fuginción "num" es menor que noventa
-  // De lo contrario, devuelve "false"gi
-  // Tu código:gi
-  if (num < 90) { gi
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  if (num < 90) { 
     return true;
   } else {
     return false;
@@ -186,7 +190,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combiando = nombre + '' + apellido;
+  var combiando = nombre + ' npm test JSI.test.js' + apellido;
   return combiando
 }
 
@@ -232,14 +236,13 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra.length > 1){
-    return 'Dato incorrecto'
+  if (letra. length > 1 ){
+    return "Dato incorrecto";
+  } 
+  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
+    return "Es vocal"
   }
-  if (letra == a, e, i, o, u) {
-    return 'Es vocal'
-  } else {
-    return 'Dato incorrecto'
-  }
+  return "Dato incorrecto"
 }
 
 
