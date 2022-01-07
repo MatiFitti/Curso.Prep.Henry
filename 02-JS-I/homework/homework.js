@@ -190,7 +190,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combiando = nombre + ' npm test JSI.test.js' + apellido;
+  var combiando = nombre + ' ' + apellido;
   return combiando
 }
 
